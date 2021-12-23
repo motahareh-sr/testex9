@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/mainLayout"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="#D7DAE3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/MyText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bordertexxt"
+                android:padding="5dp"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/MyText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/MyText3"
+                android:background="@drawable/borderbotton"
+                android:padding="5dp"
+                android:text="Title"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/MyText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MyText3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="Description"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <ImageButton
+                android:id="@+id/fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MyText2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/bordertexxt"
+                android:minWidth="52dp"
+                android:minHeight="52dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/favorite_border"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MyText2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/fav"
+                android:background="@drawable/bordertexxt"
+                android:minWidth="52dp"
+                android:minHeight="52dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/bookmark_border"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/copy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MyText2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/bookmark"
+                android:background="@drawable/bordertexxt"
+                android:minWidth="52dp"
+                android:minHeight="52dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/copy"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MyText2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/copy"
+                android:background="@drawable/bordertexxt"
+                android:minWidth="52dp"
+                android:minHeight="52dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/share"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MyText2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/share"
+                android:background="@drawable/bordertexxt"
+                android:minWidth="52dp"
+                android:minHeight="52dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/edit"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

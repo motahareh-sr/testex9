@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="ذخیره شده"
+        android:icon="@drawable/ic_baseline_bookmark_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/textic"
+        android:title="محبوبترین"
+        android:icon="@drawable/favorite"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/holder"
+        android:title="جدیدترین"
+        android:icon="@drawable/homeicon"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/email"
+        android:title="شاعران"
+        android:icon="@drawable/person"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/setting"
+        android:title="موضوعات"
+        android:icon="@drawable/baseline"
+        app:showAsAction="ifRoom"
+        />
+</menu>

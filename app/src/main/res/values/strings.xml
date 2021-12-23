@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ex_8</string>
+    <string-array name="p_name">
+        <item>عرفانی </item>
+        <item>عاشقانه</item>
+        <item>عاشقانه</item>
+        <item>انگیزشی</item>
+        <item>عاشقانه</item>
+        <item>عارفانه</item>
+    </string-array>
+    <string-array name="p_name2">
+        <item>کرمانی</item>
+        <item>بافقی</item>
+        <item>بهمنی</item>
+        <item>نظامی</item>
+        <item>مولانا</item>
+        <item>رودکی</item>
+    </string-array>
+    <string-array name="p_dec">
+        <item>دلبرا خورشید تابان ذره‌ ایی از روی تست </item>
+        <item>هر چه گویی آخری دارد به غیر از حرف عشق</item>
+        <item>تو همانی که دلم لک زده لبخندش را </item>
+        <item>در نومیدی بسی امید است </item>
+        <item>همه هست ارزویم که ببینم ز تو رویی و این حرفا</item>
+        <item>جز توکل بر خدا سرمایه ای در کار نیست </item>
+    </string-array>
+</resources>
